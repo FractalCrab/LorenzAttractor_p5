@@ -30,7 +30,6 @@ function draw(){
   orbitControl();
   scale(10);
   noFill();
-  // print(pos.length);
 
   for (i=0;i<pos.length;i++){
     red =map(pos[i].x,-50,0,0,255);
