@@ -31,14 +31,14 @@ function draw(){
   scale(10);
   noFill();
 
-for (i=0;i<pos.length;i++){
-      red =map(pos[i].x,-50,0,0,255);
-      green= map(pos[i].y,-50,0,0,255);
-      stroke(red,green,255);
-   if(i>0){
-   line(pos[i-1].x,pos[i-1].y,pos[i-1].z,pos[i].x,pos[i].y,pos[i].z);
- }
- /* beginShape()
+// for (i=0;i<pos.length;i++){
+//       red =map(pos[i].x,-50,0,0,255);
+//       green= map(pos[i].y,-50,0,0,255);
+//       stroke(red,green,255);
+//    if(i>0){
+//    line(pos[i-1].x,pos[i-1].y,pos[i-1].z,pos[i].x,pos[i].y,pos[i].z);
+//  }
+ beginShape()
   for (i = 0; i < pos.length; i++){
 		red = map(pos[i].x, -50, 0, 0, 255)
 		green = map(pos[i].y, -50, 0, 0, 255)
@@ -47,7 +47,6 @@ for (i=0;i<pos.length;i++){
 		
 
 	}
-	endShape()*/
+	endShape()
 
-}
 }
