@@ -1,14 +1,13 @@
-Lorenz Attractor built with p5.js.
+# Lorenz Attractor built with p5.js.
 
-Getting Started-
+## Getting Started-
 Clone this repository and run index.html
 
-See it live here.
+### See it live here.
 https://fractalcrab.github.io/LorenzAttractor_p5/
 
-Built With
-p5.js
+### Built With p5.js
 
 
-Author-
+## Author-
 Abhinandan
