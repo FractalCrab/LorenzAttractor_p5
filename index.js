@@ -1,4 +1,3 @@
-
 let x=1;
 let y=1;
 let z=1;
@@ -15,9 +14,8 @@ let green;
 let red;
 
 function setup(){
-  createCanvas(windowWidth, windowHeight,WEBGL);
+  createCanvas(700,700,WEBGL);
   colorMode(HSB);
-
 }
 
 function draw(){
