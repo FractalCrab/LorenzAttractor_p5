@@ -14,8 +14,8 @@ let green;
 let red;
 
 function setup(){
- // createCanvas(windowWidth, windowHeight,WEBGL);
-  createCanvas(800,800,WEBGL);
+  createCanvas(windowWidth, windowHeight,WEBGL);
+ // createCanvas(800,800,WEBGL);
   colorMode(HSB);
 }
 
