@@ -41,14 +41,4 @@ for (i=0;i<pos.length;i++){
    line(pos[i-1].x,pos[i-1].y,pos[i-1].z,pos[i].x,pos[i].y,pos[i].z);
    }
 }
-//  beginShape()
-//   for (i = 0; i < pos.length; i++){
-// 		red = map(pos[i].x, -50, 0, 0, 255)
-// 		green = map(pos[i].y, -50, 0, 0, 255)
-// 		stroke(red,green,255)
-// 		vertex(pos[i].x,pos[i].y,pos[i].z)
-		
-
-// 	}
-// 	endShape()
 }
